@@ -203,8 +203,6 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-col gap-3">
-  <div className="mt-8 flex flex-col gap-3">
-  <div className="mt-8 flex flex-col gap-3">
   <a
     href="https://t.me/openflowgo_bot"
     target="_blank"
@@ -220,8 +218,6 @@ export default function Home() {
   >
     Получить напрямую
   </button>
-</div>
-</div>
 </div>
             </div>
           </div>
