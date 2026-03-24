@@ -153,15 +153,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
-
-      <section className="mx-auto max-w-6xl px-6 pb-20">
-        <div className="mb-8 max-w-2xl">
-          <h2 className="text-3xl font-bold">Почему OpenFlow Go</h2>
-          <p className="mt-3 text-zinc-400">
-            Коротко: без лишней боли, без сложной настройки и с понятным сценарием.
-          </p>
-        </div>
 
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6">
@@ -255,7 +246,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section className="border-t border-zinc-800">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-10 text-center md:flex-row md:text-left">
           <div>
