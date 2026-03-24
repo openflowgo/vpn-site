@@ -202,14 +202,25 @@ export default function Home() {
                 Чтобы начать, просто откройте бота и выберите устройство.
               </p>
 
-              <a
-                href="https://t.me/openflowgo_bot"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-8 block w-full rounded-2xl bg-white px-5 py-3 text-center font-medium text-black transition hover:opacity-90"
-              >
-                Получить доступ
-              </a>
+              <div className="mt-8 flex flex-col gap-3">
+  <div className="mt-8 flex flex-col gap-3">
+  <a
+    href="https://t.me/openflowgo_bot"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block w-full rounded-2xl bg-white px-5 py-3 text-center font-medium text-black transition hover:opacity-90"
+  >
+    Получить через Telegram
+  </a>
+
+  <button
+    className="block w-full rounded-2xl border border-zinc-700 px-5 py-3 text-center font-medium text-white transition hover:bg-zinc-900"
+    onClick={() => alert("Скоро будет доступно")}
+  >
+    Получить напрямую
+  </button>
+</div>
+</div>
             </div>
           </div>
         </div>
