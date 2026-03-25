@@ -212,12 +212,12 @@ export default function Home() {
     Получить через Telegram
   </a>
 
-  <button
-    className="block w-full rounded-2xl border border-zinc-700 px-5 py-3 text-center font-medium text-white transition hover:bg-zinc-900"
-    onClick={() => alert("Скоро будет доступно")}
-  >
-    Получить напрямую
-  </button>
+  <a
+  href="#"
+  className="block w-full rounded-2xl border border-zinc-700 px-5 py-3 text-center font-medium text-white transition hover:bg-zinc-900"
+>
+  Получить напрямую
+</a>
 </div>
             </div>
           </div>
